@@ -1,0 +1,13 @@
+# Possible values: SIMPLE, IMMUTABLE
+mode: IMMUTABLE
+
+api:
+  port: 1321
+
+database:
+  host: localhost
+  port: 54321
+  maintenance_db_name: postgres
+  app_db_name: storage
+
+input_dir: in
